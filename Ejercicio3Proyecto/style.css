@@ -1,0 +1,48 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+}
+
+.polinomio-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0,0,0,.05);
+    transition: all 0.3s ease;
+}
+
+.polinomio-card:hover {
+    box-shadow: 0 6px 12px rgba(0,0,0,.1);
+}
+
+.form-control-sm {
+    height: calc(1.5em + .5rem + 2px); 
+}
+
+.form-control.is-invalid + .invalid-feedback {
+    display: block;
+}
+
+.btn-remove-term {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px; 
+    height: 38px; 
+    border-radius: 50%; 
+    padding: 0;
+}
+
+.btn-add-term {
+    width: 100%;
+}
+
+.results-box strong {
+    color: #343a40; 
+}
+
+.lead {
+    font-size: 1.15rem;
+}
